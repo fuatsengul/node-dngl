@@ -197,7 +197,7 @@ dngl.prototype.send = function(command, callback, iteration){
 		};
 		self.emit("command", command, data, status);
 		callback(null, status, data);
-	});	
+	}, false, 500);	
 };
 
 module.exports = dngl;
