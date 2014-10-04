@@ -121,7 +121,7 @@ The [International Mobile Subscriber Identity](http://en.wikipedia.org/wiki/Inte
 
 contributions welcome, send pull requests. if you want your device supported, send me one. 
 
-[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=yetzt&url=https://github.com/yetzt/node-dngl&title=dngl&language=de&tags=github&category=software)
+[![Flattr this git repo](https://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=yetzt&url=https://github.com/yetzt/node-dngl&title=dngl&language=de&tags=github&category=software)
 
 
 
