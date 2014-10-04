@@ -5,9 +5,11 @@ var events = require("events");
 var modem = require("modem");
 var fs = require("fs");
 
-function dngl(device){
-	if (!(this instanceof dngl)) return (new dngl(device));
+function dngl(device, interval){
+	if (!(this instanceof dngl)) return (new dngl(device, interval));
 	var self = this;
+	
+	var interval = (typeof interval !== "number") ? 1000 : parseInt(interval);
 	
 	// check if modem exists
 	if (!fs.existsSync(device)) {
@@ -28,7 +30,7 @@ function dngl(device){
 				if (err) return self.emit("error", err);
 				setInterval(function(){
 					self.check();
-				},1000);
+				}, interval);
 			});
 		});
 		self.modem.on("error", function(err){
