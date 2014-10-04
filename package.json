@@ -1,0 +1,34 @@
+{
+  "name": "dngl",
+  "version": "0.0.1",
+  "description": "use a 3g/4g usb data dongle to log mobile network data",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yetzt/node-dngl.git"
+  },
+  "keywords": [
+    "dongle",
+    "3g",
+    "stick",
+    "modem",
+    "umts",
+    "utran",
+    "e-utran",
+    "4g"
+  ],
+  "dependencies": {
+    "colors": "^0.6.2",
+    "dur": "0.0.2",
+    "geolocate": "0.0.1",
+    "modem": "^1.0.3",
+    "moment": "^2.8.3",
+    "serialport": "^1.4.6"
+  },
+  "author": "yetzt <node@yetzt.me> (https://yetzt.me/)",
+  "license": "Public Domain",
+  "bugs": {
+    "url": "https://github.com/yetzt/node-dngl/issues"
+  },
+  "homepage": "https://github.com/yetzt/node-dngl"
+}
