@@ -1,6 +1,6 @@
 {
   "name": "dngl",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "use a 3g/4g usb data dongle to log mobile network data",
   "main": "index.js",
   "repository": {

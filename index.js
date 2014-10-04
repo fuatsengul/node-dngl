@@ -31,6 +31,7 @@ function dngl(device, interval){
 				setInterval(function(){
 					self.check();
 				}, interval);
+				self.check();
 			});
 		});
 		self.modem.on("error", function(err){
