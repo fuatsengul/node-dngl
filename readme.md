@@ -13,7 +13,7 @@ npm install dngl
 ``` javascript
 var dngl = require("dngl");
 
-var device = new dngl("/dev/cu.HUAWEIMobile-Modem");
+var device = new dngl("/dev/cu.HUAWEIMobile-Modem"); // put your device here
 
 device.on("data", function(data){
 	console.log(data);
