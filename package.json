@@ -23,7 +23,7 @@
     "geolocate": "0.0.1",
     "modem": "^1.0.3",
     "moment": "^2.8.3",
-    "serialport": "^1.4.6"
+    "serialport": "1.7.4"
   },
   "author": "yetzt <node@yetzt.me> (https://yetzt.me/)",
   "license": "Public Domain",
